@@ -45,6 +45,7 @@ public class Main {
         
         System.out.println("---VECTOR ORDENADO---");
         
+        //Metodos
         switch(teclado){
             case 1: {
                 
