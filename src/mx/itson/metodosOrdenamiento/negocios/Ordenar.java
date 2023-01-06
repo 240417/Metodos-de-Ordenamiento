@@ -63,4 +63,24 @@ public class Ordenar {
         
         return vector;
     }
+    
+    public int [] selectionSort(int vector []){
+        
+        for(int i=0;i<vector.length;i++){
+            int minimo=i;
+            
+            for(int j=i+1;j<vector.length;j++){
+                if(vector[j]<vector[minimo]){
+                    minimo=j;
+                }
+            }
+            if(i!=minimo){
+                int auxiliar = vector[i];
+                vector[i]=vector[minimo];
+                vector[minimo]=auxiliar;
+            }
+        }
+        
+        return vector;
+    }
 }

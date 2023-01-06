@@ -31,11 +31,11 @@ public class Main {
         System.out.println("");
         System.out.println("--METODOS DE ORDENAMIENTO--");
         System.out.println("");
-        System.out.println("1.-Metodo BURBUJA");
+        System.out.println("1.-Metodo BURBUJA(BUBBLESORT)");
         System.out.println("");
-        System.out.println("2.-Metodo INSERCIÓN");
+        System.out.println("2.-Metodo INSERCIÓN(INSERTIONSORT)");
         System.out.println("");
-        System.out.println("3.-");
+        System.out.println("3.-Metodo de SELECCIÓN(SELECTIONSORT)");
         System.out.println("");
         System.out.println("4.-");
         System.out.println("");
@@ -54,6 +54,10 @@ public class Main {
             case 2:{
                 
                 ordenar.imprimir(ordenar.insertionSort(vector));
+                break;}
+            case 3:{
+                
+                ordenar.imprimir(ordenar.selectionSort(vector));
                 break;}
         }
     
